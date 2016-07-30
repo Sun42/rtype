@@ -1,0 +1,109 @@
+#include <sstream>
+#include "Ship.h"
+#include "RClient.h"
+
+/*********************************************************************/
+
+Ship::Ship(unsigned int id, int speed, float timeOfCreation,
+	   float posXOnMap, float posYOnMap, const char* imgPath,
+	   unsigned int life) :
+  SpriteEntity(id,  speed, timeOfCreation, posXOnMap, posYOnMap, imgPath, 1),
+  _life(life), _imgPath(imgPath), _weaponsInventory(),
+  _currentWeapon(WEAPON1),  _lastShootTime(0), _lastTouchedTime(0)
+{
+  this->_weaponsInventory.push_back(WEAPON1);
+  this->_weaponsInventory.push_back(WEAPON2);
+  this->setTypeSpriteEntity(TYPESHIP);
+}
+
+Ship::Ship(const Ship& rhs):
+  SpriteEntity(rhs), _life(rhs._life), _imgPath(rhs._imgPath.c_str()),
+  _weaponsInventory(rhs._weaponsInventory),
+  _currentWeapon(rhs._currentWeapon),
+ _lastShootTime(rhs._lastShootTime),  _lastTouchedTime(rhs._lastTouchedTime)
+{
+}
+
+Ship::~Ship()
+{
+
+}
+
+Ship& Ship::operator=(const Ship& rhs)
+{
+  if (this != &rhs)
+    {
+      this->_life = rhs._life;
+      this->_imgPath = rhs._imgPath;
+      this->_weaponsInventory = rhs._weaponsInventory;
+      this->_lastShootTime = rhs._lastShootTime;
+      this->_lastTouchedTime = rhs._lastTouchedTime;
+    }
+  return (*this);
+}
+
+/*********************************************************************/
+
+typeShip	Ship::getNumPlayer(unsigned int shipid)
+{
+  typeShip	tab[]=
+    {
+      PLAYER1,
+      PLAYER2,
+      PLAYER3,
+      PLAYER4
+    };
+  return (tab[shipid]);
+}
+
+unsigned int	Ship::getLife() const
+{
+  return (this->_life);
+}
+
+/*********************************************************************/
+//todo gerer la frequence si reellement utile
+void		Ship::shoot(std::list<Action*>& actions)
+{
+  /*
+    if (currentTime - this->_lastShootTime > this->_weaponsInventory[0])
+<<<<<<< .mine
+  {
+  this->_lastShootTime = currentTime;
+  shooted = true;
+  }
+=======
+    {
+    this->_lastShootTime = currentTime;
+    shooted = true;
+    }
+>>>>>>> .r181
+  */
+  std::ostringstream os;
+  os << this->getSprite()->GetPosition().x + 55;
+  os << " " << this->getSprite()->GetPosition().y + 15;
+  //std::cerr<< this->getId()<<std::endl;
+  actions.push_back(new Action(CREATE, TYPEWEAPON,
+			       this->_weaponsInventory[this->_currentWeapon],
+			       (os.str()).c_str(), this->getId()));
+}
+
+
+unsigned int	Ship::touched(float currentTime)
+{
+  if (this->getId() == RClient::getInstance()->getShipId() && (currentTime - this->_lastTouchedTime) > 3)
+    {
+      this->_lastTouchedTime = currentTime;
+      return (this->_life -= 1);
+    }
+  return (this->_life);
+}
+
+
+void Ship::changeWeapon()
+{
+  if (static_cast<unsigned>(this->_currentWeapon) < (this->_weaponsInventory.size() - 1))
+    this->_currentWeapon = static_cast<typeWeapon>(this->_currentWeapon + 1);
+  else
+    this->_currentWeapon = WEAPON1;
+}

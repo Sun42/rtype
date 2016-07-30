@@ -1,0 +1,2044 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="5">
+<level class_id="0" tracking_level="0" version="0">
+	<_idLevel>0</_idLevel>
+	<_scenario class_id="1" tracking_level="0" version="0">
+		<_actions class_id="2" tracking_level="0" version="0">
+			<count>145</count>
+			<item_version>0</item_version>
+			<item class_id="3" tracking_level="0" version="0">
+				<first class_id="4" tracking_level="1" version="0" object_id="_0">
+					<_spriteId>5</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>152480816</_typeWeapon>
+					<_typeDecor>84</_typeDecor>
+=======
+					<_typeWeapon>255</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>2</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_1">
+					<_spriteId>6</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>5</_typeWeapon>
+					<_typeDecor>16711680</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>4.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_2">
+					<_spriteId>7</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>256</_typeWeapon>
+					<_typeDecor>8</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>7</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_3">
+					<_spriteId>8</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>32</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>9.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_4">
+					<_spriteId>9</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>65280</_typeWeapon>
+					<_typeDecor>255</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>12</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_5">
+					<_spriteId>10</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>152481560</_typeWeapon>
+					<_typeDecor>106</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>14.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_6">
+					<_spriteId>11</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>4</_typeWeapon>
+					<_typeDecor>16711680</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>17</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_7">
+					<_spriteId>12</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>256</_typeWeapon>
+					<_typeDecor>8</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>19.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_8">
+					<_spriteId>13</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>22</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_9">
+					<_spriteId>14</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>-1077798696</_typeWeapon>
+					<_typeDecor>135660042</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>24.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_10">
+					<_spriteId>15</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>139264</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>27</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_11">
+					<_spriteId>16</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>404225</_typeWeapon>
+					<_typeDecor>603979776</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>29.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_12">
+					<_spriteId>17</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>32</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_13">
+					<_spriteId>18</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>16</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>34.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_14">
+					<_spriteId>19</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>37</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_15">
+					<_spriteId>20</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>39.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_16">
+					<_spriteId>21</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>42</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_17">
+					<_spriteId>22</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>44.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_18">
+					<_spriteId>23</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>47</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_19">
+					<_spriteId>24</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>49.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_20">
+					<_spriteId>25</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>52</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_21">
+					<_spriteId>26</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>54.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_22">
+					<_spriteId>27</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>57</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_23">
+					<_spriteId>28</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>59.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_24">
+					<_spriteId>29</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>62</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_25">
+					<_spriteId>30</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>64.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_26">
+					<_spriteId>31</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>67</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_27">
+					<_spriteId>32</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>69.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_28">
+					<_spriteId>33</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>72</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_29">
+					<_spriteId>34</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>74.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_30">
+					<_spriteId>35</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>77</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_31">
+					<_spriteId>36</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>79.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_32">
+					<_spriteId>37</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>82</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_33">
+					<_spriteId>38</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>84.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_34">
+					<_spriteId>39</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>87</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_35">
+					<_spriteId>40</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>89.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_36">
+					<_spriteId>41</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>92</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_37">
+					<_spriteId>42</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>94.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_38">
+					<_spriteId>43</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>97</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_39">
+					<_spriteId>44</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>99.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_40">
+					<_spriteId>45</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>102</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_41">
+					<_spriteId>46</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>104.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_42">
+					<_spriteId>47</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>107</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_43">
+					<_spriteId>48</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>109.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_44">
+					<_spriteId>49</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>112</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_45">
+					<_spriteId>50</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>114.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_46">
+					<_spriteId>51</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>117</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_47">
+					<_spriteId>52</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>119.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_48">
+					<_spriteId>53</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>122</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_49">
+					<_spriteId>54</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>124.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_50">
+					<_spriteId>55</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>127</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_51">
+					<_spriteId>56</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>129.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_52">
+					<_spriteId>57</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>132</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_53">
+					<_spriteId>58</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+>>>>>>> .r177
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>134.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_54">
+					<_spriteId>59</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+>>>>>>> .r177
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>137</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_55">
+					<_spriteId>60</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>139.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_56">
+					<_spriteId>61</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>142</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_57">
+					<_spriteId>62</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+>>>>>>> .r177
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>144.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_58">
+					<_spriteId>63</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>147</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_59">
+					<_spriteId>64</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+<<<<<<< .mine
+					<_typeWeapon>0</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+=======
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+>>>>>>> .r177
+					<_params>1200 512</_params>
+				</first>
+				<second>149.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_60">
+					<_spriteId>65</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>152</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_61">
+					<_spriteId>66</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>154.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_62">
+					<_spriteId>67</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>157</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_63">
+					<_spriteId>68</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>159.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_64">
+					<_spriteId>69</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>162</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_65">
+					<_spriteId>70</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>164.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_66">
+					<_spriteId>71</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>167</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_67">
+					<_spriteId>72</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>169.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_68">
+					<_spriteId>73</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>172</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_69">
+					<_spriteId>74</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>174.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_70">
+					<_spriteId>75</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>177</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_71">
+					<_spriteId>76</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>179.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_72">
+					<_spriteId>77</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>182</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_73">
+					<_spriteId>78</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>184.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_74">
+					<_spriteId>79</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>187</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_75">
+					<_spriteId>80</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>189.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_76">
+					<_spriteId>81</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>192</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_77">
+					<_spriteId>82</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>194.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_78">
+					<_spriteId>83</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>197</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_79">
+					<_spriteId>84</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>199.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_80">
+					<_spriteId>85</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>202</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_81">
+					<_spriteId>86</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>204.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_82">
+					<_spriteId>87</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>207</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_83">
+					<_spriteId>88</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>209.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_84">
+					<_spriteId>89</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>212</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_85">
+					<_spriteId>90</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>214.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_86">
+					<_spriteId>91</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>217</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_87">
+					<_spriteId>92</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>219.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_88">
+					<_spriteId>93</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>222</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_89">
+					<_spriteId>94</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>224.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_90">
+					<_spriteId>95</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>227</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_91">
+					<_spriteId>96</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>229.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_92">
+					<_spriteId>97</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>232</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_93">
+					<_spriteId>98</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>234.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_94">
+					<_spriteId>99</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>237</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_95">
+					<_spriteId>100</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>239.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_96">
+					<_spriteId>101</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>242</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_97">
+					<_spriteId>102</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>244.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_98">
+					<_spriteId>103</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>247</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_99">
+					<_spriteId>104</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>249.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_100">
+					<_spriteId>105</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>252</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_101">
+					<_spriteId>106</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>254.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_102">
+					<_spriteId>107</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>257</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_103">
+					<_spriteId>108</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>259.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_104">
+					<_spriteId>109</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>262</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_105">
+					<_spriteId>110</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>264.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_106">
+					<_spriteId>111</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>267</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_107">
+					<_spriteId>112</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>269.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_108">
+					<_spriteId>113</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>272</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_109">
+					<_spriteId>114</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>274.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_110">
+					<_spriteId>115</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>277</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_111">
+					<_spriteId>116</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>279.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_112">
+					<_spriteId>117</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>282</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_113">
+					<_spriteId>118</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>284.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_114">
+					<_spriteId>119</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>287</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_115">
+					<_spriteId>120</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>289.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_116">
+					<_spriteId>121</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>292</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_117">
+					<_spriteId>122</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>294.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_118">
+					<_spriteId>123</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>297</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_119">
+					<_spriteId>124</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>299.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_120">
+					<_spriteId>125</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>302</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_121">
+					<_spriteId>126</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>304.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_122">
+					<_spriteId>127</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>307</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_123">
+					<_spriteId>128</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>309.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_124">
+					<_spriteId>129</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>312</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_125">
+					<_spriteId>130</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>314.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_126">
+					<_spriteId>131</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>317</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_127">
+					<_spriteId>132</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>319.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_128">
+					<_spriteId>133</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>322</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_129">
+					<_spriteId>134</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>324.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_130">
+					<_spriteId>135</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>327</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_131">
+					<_spriteId>136</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>329.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_132">
+					<_spriteId>137</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>332</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_133">
+					<_spriteId>138</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>334.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_134">
+					<_spriteId>139</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>337</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_135">
+					<_spriteId>140</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>339.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_136">
+					<_spriteId>141</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>342</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_137">
+					<_spriteId>142</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>344.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_138">
+					<_spriteId>143</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>347</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_139">
+					<_spriteId>144</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>349.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_140">
+					<_spriteId>145</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>352</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_141">
+					<_spriteId>146</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>354.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_142">
+					<_spriteId>147</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>357</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_143">
+					<_spriteId>148</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>359.5</second>
+			</item>
+			<item>
+				<first class_id_reference="4" object_id="_144">
+					<_spriteId>149</_spriteId>
+					<_typeAction>0</_typeAction>
+					<_typeSpriteEntity>0</_typeSpriteEntity>
+					<_typeShip>4</_typeShip>
+					<_typeWeapon>4707070</_typeWeapon>
+					<_typeDecor>0</_typeDecor>
+					<_params>1200 512</_params>
+				</first>
+				<second>362</second>
+			</item>
+		</_actions>
+	</_scenario>
+</level>

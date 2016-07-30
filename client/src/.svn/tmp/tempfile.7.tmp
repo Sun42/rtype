@@ -1,0 +1,328 @@
+#include "WindowZone.h"
+#include "RClient.h"
+#include "WindowManager.h"
+#include "Weapon.h"
+
+WindowZone::WindowZone():
+  _myEntities(), _otherEntities(), _delEntities()
+{
+}
+
+WindowZone::WindowZone(const WindowZone& rhs):
+  _myEntities(rhs._myEntities), _otherEntities(rhs._otherEntities), _delEntities(rhs._delEntities)
+{
+}
+
+WindowZone::~WindowZone()
+{
+}
+
+WindowZone& WindowZone::operator=(const WindowZone& rhs)
+{
+  if (this != &rhs)
+    {
+      this->_myEntities = rhs._myEntities;
+      this->_otherEntities = rhs._otherEntities;
+      this->_delEntities = rhs._delEntities;
+    }
+  return (*this);
+}
+
+bool	WindowZone::checkObject(SpriteEntity* spr1, SpriteEntity* spr2)
+{
+  if ((!spr2->isPlayer()) &&
+      spr1->getDeepness() == spr2->getDeepness())
+    return (true);
+  return (false);
+}
+
+void	WindowZone::checkCollisionSprite(SpriteEntity* spr1, SpriteEntity* spr2)
+{
+  unsigned int	shipId = RClient::getInstance()->getShipId();
+
+  if (this->checkObject(spr1, spr2))
+    {
+      if (Collision::PixelPerfectTest(*spr1->getSprite(), *spr2->getSprite()))
+	{
+	  if (spr1->getId() == shipId) // Si c'est mon joueur qui touche quelqueChose
+	    {
+	      if (!spr1->touched(RClient::getInstance()->getTime()))
+		{
+		  std::cout << "BOUUUUUUUUUUUUUUMMMMMMMMMM" << std::endl;
+		  RClient::getInstance()->getApp()->Close();
+		  exit (-1);
+		}
+	    }
+	  else // Sinon c'est une de mes balle qui touche QuelqueChose autre qu'un player
+	    {
+		  std::cout << "BOUUUUUUUUUUUUUUMMMMMMMMMM2222222222" << std::endl;
+	      //envoi du sprite touche dans le reseau;
+	      this->_delEntities.push_back(spr1);
+	      this->_delEntities.push_back(spr2);
+	      // animation explosion
+	    }
+	}
+    }
+}
+
+void	WindowZone::checkCollision()
+{
+  std::list<SpriteEntity *>::iterator it = this->_myEntities.begin();
+  std::list<SpriteEntity *>::iterator ite = this->_myEntities.end();
+  for(; it != ite; ++it)
+    {
+      std::list<SpriteEntity *>::iterator it2 = this->_otherEntities.begin();
+      std::list<SpriteEntity *>::iterator ite2 = this->_otherEntities.end();
+      for(; it2 != ite2; ++it2)
+	{
+	  this->checkCollisionSprite((*it), (*it2));
+	}
+    }
+  if (this->_delEntities.size())
+    {  
+      std::list<SpriteEntity *>::iterator save;
+      it = this->_delEntities.begin();
+      WindowManager*	windowmanager = WindowManager::getInstance();
+      while (it != this->_delEntities.end())
+	{
+	  save = it;
+	  ++it;
+	  windowmanager->delSpriteInZones((*save));
+	  this->_delEntities.erase(save);
+	}
+    }
+}
+
+bool	WindowZone::checkIfExist(SpriteEntity* sprite)
+{
+  std::list<SpriteEntity *>::iterator it = this->_myEntities.begin();
+  std::list<SpriteEntity *>::iterator ite = this->_myEntities.end();
+  for(; it != ite; ++it)
+    {
+      if (sprite->getId() == (*it)->getId())
+	return (true);
+    }
+  it = this->_otherEntities.begin();
+  ite = this->_otherEntities.end();
+  for(; it != ite; ++it)
+    {
+      if (sprite->getId() == (*it)->getId())
+	return (true);
+    }
+  return (false);
+}
+
+void	WindowZone::addSpriteEntity(SpriteEntity* sprite)
+{
+  std::cout<< "WindowZone::addSpriteEntity() GetTypeSpriteEntity()"<< sprite->getTypeSpriteEntity()<<std::endl;
+  std::cout<< "WindowZone::addSpriteEntity() TYPEWEAPON"<< TYPEWEAPON <<std::endl;
+  if (!this->checkIfExist(sprite))
+    {
+      if (sprite->getTypeSpriteEntity() == TYPESHIP)
+	{
+	  if (RClient::getInstance()->getShipId() == sprite->getId())
+	    {
+	      this->_myEntities.push_back(sprite);
+	    }
+	  else
+	    {
+	      this->_otherEntities.push_back(sprite);
+	    }
+	}
+      else if (sprite->getTypeSpriteEntity() == TYPEWEAPON)
+	{
+	  std::cout<< "Ca passe 1"<<std::endl;
+	  Weapon * weapon = dynamic_cast<Weapon*>(sprite);
+	  if (weapon)
+	    {
+	      std::cout<< "Ca passe 2"<<std::endl;
+	      if (weapon->getOwner() == RClient::getInstance()->getShipId())
+		this->_myEntities.push_back(sprite);
+	      else
+		this->_otherEntities.push_back(sprite);
+	    }
+	}
+    }
+}
+
+/*
+//efface litem dans la list, ne detruit pas le sprite
+void	WindowZone::delSpriteEntity(unsigned int id)
+{
+  std::list<SpriteEntity *>::iterator it = this->_entities.begin();
+  std::list<SpriteEntity *>::iterator ite = this->_entities.end();
+  for(; it != ite; ++it)
+    {
+      if ((*it)->getId() == id)
+		{
+		  this->_entities.remove((*it));
+		  return ;
+		}
+    }
+}*/
+
+void	WindowZone::delSpriteEntity(SpriteEntity* sprite)
+{
+  if (this->checkIfExist(sprite))
+    {
+      if (sprite->getTypeSpriteEntity() == TYPESHIP)
+	{
+	  if (RClient::getInstance()->getShipId() == sprite->getId())
+	    this->_myEntities.remove(sprite);
+	  else
+	    this->_otherEntities.remove(sprite);
+	}
+      else if (sprite->getTypeSpriteEntity() == TYPEWEAPON)
+	{
+	  Weapon * weapon = dynamic_cast<Weapon*>(sprite);
+	  if (weapon)
+	    {
+	      if (weapon->getOwner() == RClient::getInstance()->getShipId())
+		this->_myEntities.remove(sprite);
+	      else
+		this->_otherEntities.remove(sprite);
+	    }
+	}
+    }
+}
+
+void	WindowZone::printSprites() const
+{
+  std::list<SpriteEntity *>::const_iterator it = this->_otherEntities.begin();
+  std::list<SpriteEntity *>::const_iterator ite = this->_otherEntities.end();
+  sf::RenderWindow*	app = RClient::getInstance()->getApp();
+
+  for(; it != ite; ++it)
+    {
+      if ((*it)->isActioned())
+	{
+	  app->Draw(*((*it)->getSprite()));
+	  (*it)->setActioned(false);
+	}
+    }
+
+  it = this->_myEntities.begin();
+  ite = this->_myEntities.end();
+  for(; it != ite; ++it)
+    {
+      if ((*it)->isActioned())
+	{
+	  app->Draw(*((*it)->getSprite()));
+	  (*it)->setActioned(false);
+	}
+    }
+}
+
+SpriteEntity*	WindowZone::getWeaponSprite(unsigned int weaponId, unsigned int ownerId)
+{
+  std::list<SpriteEntity *>::const_iterator	it;
+  std::list<SpriteEntity *>::const_iterator	ite;
+  if (ownerId == RClient::getInstance()->getShipId())
+    {
+      it = this->_myEntities.begin();
+      ite = this->_myEntities.end();
+    }
+  else
+    {
+      it = this->_otherEntities.begin();
+      ite = this->_otherEntities.end();
+    }
+  for(; it != ite; ++it)
+    {
+      if ((*it)->getId() == weaponId &&
+	  (*it)->getTypeSpriteEntity() == TYPEWEAPON)
+	{
+	  Weapon	*tmpSprite = dynamic_cast<Weapon *>(*it);
+	  if (tmpSprite)
+	    {
+	      if (tmpSprite->getOwner() == ownerId)
+		return (*it);
+	    }
+	}
+    }
+  return (0);
+}
+
+SpriteEntity*	WindowZone::getShipSprite(unsigned int spriteid)
+{
+  std::list<SpriteEntity *>::const_iterator	it;
+  std::list<SpriteEntity *>::const_iterator	ite;
+  if (spriteid == RClient::getInstance()->getShipId())
+    {
+      it = this->_myEntities.begin();
+      ite = this->_myEntities.end();
+    }
+  else
+    {
+      it = this->_otherEntities.begin();
+      ite = this->_otherEntities.end();
+    }
+  for(; it != ite; ++it)
+    {
+      if ((*it)->getId() == spriteid && (*it)->getTypeSpriteEntity() == TYPESHIP)
+	{
+	  return (*it);
+	}
+    }
+  return (0);
+}
+
+void	WindowZone::execNonActioned()
+{
+  std::list<SpriteEntity *> movedsprite;
+  std::list<SpriteEntity *>::const_iterator it = this->_otherEntities.begin();
+  std::list<SpriteEntity *>::const_iterator ite = this->_otherEntities.end();
+  RClient*	rclient = RClient::getInstance();
+  for(; it != ite; ++it)
+    {
+      if ((*it)->isActioned() == false)
+	{
+	  (*it)->execActions(rclient->getTime());
+	  if ((*it)->move() != '0')
+	    {
+	      movedsprite.push_back((*it));
+	    }
+	  (*it)->setActioned(true);
+	}
+    }
+  it = this->_myEntities.begin();
+  ite = this->_myEntities.end();
+  for(; it != ite; ++it)
+    {
+      if ((*it)->isActioned() == false)
+	{
+	  (*it)->execActions(rclient->getTime());
+	  if ((*it)->move() != '0')
+	    {
+	      movedsprite.push_back((*it));
+	    }
+	  (*it)->setActioned(true);
+	}
+    }
+  it = movedsprite.begin();
+  ite = movedsprite.end();
+  for(WindowManager* windowmanager = WindowManager::getInstance(); it != ite; ++it)
+    {
+      windowmanager->updateSpriteInZone((*it));
+    }
+}
+
+void	WindowZone::flushDestroyZone()
+{
+  std::list<SpriteEntity *>::iterator save;
+  std::list<SpriteEntity *>::iterator it = this->_otherEntities.begin();
+  while (it != this->_otherEntities.end())
+    {
+      save = it;
+      ++it;
+      this->_otherEntities.erase(save);
+    }
+  it = this->_myEntities.begin();
+  while (it != this->_myEntities.end())
+    {
+      save = it;
+      ++it;
+      //WindowManager::getInstance()->delSpriteInZones((*save)); si tu le decommente faire un for et init le windowmanager ds une variable
+      this->_myEntities.erase(save);
+    }
+}

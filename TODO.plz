@@ -1,0 +1,76 @@
+tester  destroy armese nnemies
+
+delaguer le background enelever du loop
+
+faire son threade des tirs son
+
+install drivers
+
+/*gamePlay*/
+faire un scenario
+faire boss
+faire ennemis
+faire plusieurs levels
+
+update uml
+
+Server:
+
+gestion deconnection
+gestion parametres connection
+
+
+//bonus affichage des scores des autres players
+//affichage dela vie
+// decalage des balles apparentescarposition de depard des balles fausse, nous demander pour ledecalage
+
+
+
+Bugs:
+le dernierjoueur restant ne peut pas kill dennemi
+segfault du serveur en fin de game.
+//segfault du serveur
+Log:
+Kollision~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+idBallKiller 0
+idVictim 1
+idVictimBall 365
+lifeOfShip 1
+powerShoot 1
+typeVictimW
+isKilled? true
+idKiller 1
+idBallKiller 0
+typeVictimW
+idVictim 1
+idVictimBall 365
+Size Sent : 22
+Size Sent : 22
+
+New Requete : 
+[15][0][0][0][83][1][1][235][1][0][0][124][3][0][0]Nb players on server : 2
+Taille : 11
+Command : SChecklen :true
+Player::funcShoot
+Size Sent : 15
+
+New Requete : 
+[15][0][0][0][83][1][1][235][1][0][0][124][3][0][0]Nb players on server : 2
+Taille : 11
+Command : SChecklen :true
+Player::funcShoot
+Size Sent : 15
+
+New Requete : 
+[15][0][0][0][83][1][1][235][1][0][0][124][3][0][0]Nb players on server : 2
+Taille : 11
+Command : SChecklen :true
+Player::funcShoot
+Size Sent : 15
+
+New Requete : 
+[5][0][0][0][68]Nb players on server : 2
+Taille : 1
+Command : DChecklen :true
+Player::funcDeco
+zsh: segmentation fault  ./server 44000

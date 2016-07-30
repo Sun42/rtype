@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/rtype/!svn/ver/201/client/libs/ships
+END
+Monster1.dll
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/rtype/!svn/ver/108/client/libs/ships/Monster1.dll
+END
+Player1.dll
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/rtype/!svn/ver/107/client/libs/ships/Player1.dll
+END
+Player2.dll
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/rtype/!svn/ver/107/client/libs/ships/Player2.dll
+END
+Player3.dll
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/rtype/!svn/ver/107/client/libs/ships/Player3.dll
+END
+Player4.dll
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/rtype/!svn/ver/107/client/libs/ships/Player4.dll
+END

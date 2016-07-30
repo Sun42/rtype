@@ -1,0 +1,140 @@
+#include <sstream>
+
+#include "Cmd.h"
+#include "Action.h"
+#include "RClient.h"
+//remove mthodPtr shoot, faire une methode setPostion
+
+//a remove je pense useless
+Action::Action() : _mPtr()
+{
+  this->_mPtr.push_back(&Action::create);
+  this->_mPtr.push_back(&Action::move);
+  this->_mPtr.push_back(&Action::shoot);
+  this->_mPtr.push_back(&Action::destroy);
+  this->_mPtr.push_back(&Action::del);
+}
+
+//surcharge ship
+Action::Action(unsigned int spriteid, typeAction typeaction,
+	       typeSpriteEntity typeSprite, typeShip typeship, std::string param):
+  _spriteId(spriteid), _typeAction(typeaction),
+  _typeSpriteEntity(typeSprite),  _typeShip(typeship), _params(param)
+{
+  this->_mPtr.push_back(&Action::create);
+  this->_mPtr.push_back(&Action::move);
+  this->_mPtr.push_back(&Action::shoot);
+  this->_mPtr.push_back(&Action::destroy);
+  this->_mPtr.push_back(&Action::del);
+
+}
+
+//surcharge weapon
+Action::Action(typeAction typeaction,
+	       typeSpriteEntity typeSprite, typeWeapon typeweapon,
+	       std::string param, unsigned int ownerid):
+  _typeAction(typeaction),
+  _typeSpriteEntity(typeSprite),  _typeWeapon(typeweapon),
+  _params(param), _weaponOwnerId(ownerid)
+{
+  std::cout<< "Action::Action() _weaponownerid:" << _weaponOwnerId
+	   << " ownerID: " << ownerid  <<std::endl;
+  this->_mPtr.push_back(&Action::create);
+  this->_mPtr.push_back(&Action::move);
+  this->_mPtr.push_back(&Action::shoot);
+  this->_mPtr.push_back(&Action::destroy);
+  this->_mPtr.push_back(&Action::del);
+}
+
+//surcharge decor
+Action::Action(unsigned int spriteid, typeAction typeaction,
+	       typeSpriteEntity typeSprite, typeDecor typedecor, std::string param):
+  _spriteId(spriteid), _typeAction(typeaction),
+  _typeSpriteEntity(typeSprite),  _typeDecor(typedecor), _params(param)
+{
+  this->_mPtr.push_back(&Action::create);
+  this->_mPtr.push_back(&Action::move);
+  this->_mPtr.push_back(&Action::shoot);
+  this->_mPtr.push_back(&Action::destroy);
+  this->_mPtr.push_back(&Action::del);
+}
+
+Action::Action(const Action&)
+{
+}
+
+Action::~Action()
+{
+}
+
+Action& Action::operator=(const Action& )
+{
+  return (*this);
+}
+
+void	Action::execAction()
+{
+  (this->*this->_mPtr[this->_typeAction])();
+}
+
+void	Action::move()
+{
+  SpriteEntity*	tmpsprite = 0;
+  Cmd mycmd(this->_params);
+
+  if (this->_typeSpriteEntity == TYPEWEAPON)
+    {
+      unsigned spriteId = static_cast<unsigned int>(mycmd.getIntParam(2));
+      tmpsprite = WindowManager::getInstance()->getWeaponInZone(spriteId, this->_weaponOwnerId);
+      if (!tmpsprite)
+	{
+	  std::cerr<< "Action::Move() cant get Weapon" <<std::endl;
+	  exit(1);
+	}
+      std::cout<< "Action::Move() spriteId:"<< spriteId << "this->_weaponOwnerId:" << this->_weaponOwnerId <<std::endl;
+      std::cout << "Direction: " << mycmd.getParam(1)[0] << std::endl;
+      std::cout<< "Id du weapon: " << tmpsprite->getId() << std::endl;
+    }
+  else
+    tmpsprite = WindowManager::getInstance()->getShipInZone(this->_spriteId);
+  if (tmpsprite)
+    tmpsprite->setDirection(mycmd.getParam(1)[0]);
+}
+
+void		Action::shoot()
+{
+}
+
+void		Action::create()
+{
+  Cmd mycmd(this->_params);
+  SpriteEntity* spr = 0;
+  float timeOC =  RClient::getInstance()->getTime();
+  SpriteFactory* SpF = SpriteFactory::getInstance();
+  float x = mycmd.getFloatParam(1);
+  float y = mycmd.getFloatParam(2);
+
+  if (this->_typeSpriteEntity == TYPESHIP)
+    spr = SpF->buildSprite<typeShip>(this->_spriteId, timeOC, x, y, this->_typeShip);
+  if (this->_typeSpriteEntity == TYPEWEAPON)
+    {
+      std::cout << "Action::Create(): ownerId : "<< this->_weaponOwnerId << std::endl;
+      spr = SpF->buildSprite<typeWeapon>(/*this->_weaponOwnerId*/42 , timeOC, x, y, this->_typeWeapon);
+    }
+  if (this->_typeSpriteEntity == TYPEDECOR)
+    spr = SpF->buildSprite<typeDecor>(this->_spriteId, timeOC, x, y, this->_typeDecor);
+  if (!spr)
+    {
+      std::cerr<< " Can't load Sprite of type" << this->_typeSpriteEntity << std::endl;
+      exit(1);
+    }
+  WindowManager::getInstance()->addSpriteInZone(spr);
+}
+
+void				Action::destroy()
+{
+}
+
+void				Action::del()
+{
+}

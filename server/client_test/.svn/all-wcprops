@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/rtype/!svn/ver/110/server/client_test
+END
+Packet.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/rtype/!svn/ver/82/server/client_test/Packet.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/rtype/!svn/ver/82/server/client_test/Makefile
+END
+Packet.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/rtype/!svn/ver/82/server/client_test/Packet.h
+END
+blocking_udp_echo_client.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/rtype/!svn/ver/110/server/client_test/blocking_udp_echo_client.cpp
+END

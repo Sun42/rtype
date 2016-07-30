@@ -1,0 +1,117 @@
+9
+
+dir
+238
+https://OpenSVN.csie.org/rtype/client
+https://OpenSVN.csie.org/rtype
+
+
+
+2009-08-05T02:15:53.398117Z
+237
+chris
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+54080963-3881-4a87-806e-8f55f19e8411
+
+fontTest
+dir
+
+src
+dir
+
+header
+dir
+
+libs
+dir
+
+sprites
+dir
+
+levels
+dir
+
+sounds
+dir
+
+R-Type_ultime.algol
+file
+
+
+
+
+2009-08-02T20:13:29.000000Z
+3ae0770d0d89b64b70cc0359cd980f57
+2009-07-27T16:47:06.018450Z
+19
+yavuz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2088
+
+Makefile
+file
+
+
+
+
+2009-08-05T03:47:16.000000Z
+91a81bf233be95d1be0dd0c69d2e7296
+2009-08-04T18:52:16.853605Z
+212
+chris
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1408
+

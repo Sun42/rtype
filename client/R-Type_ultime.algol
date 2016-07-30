@@ -1,0 +1,56 @@
+RUN()
+{
+	doScenario() : verification des changements dans le scenario du lvl; 
+	{
+		On check le scenario dans Level puis on extrait toutes
+		les actions qui ont un temp inferieur ou egale au temp actuel
+		le scenario d'un level ne comporte que des creations
+		(monstres, map, bonus peut etre et arrivee en fin de map un boss (monstre))
+		cela ajoute un ptr sur un sprite dans WindowZone qui sera lui decoupe en 6 - zone
+	}
+
+	for each input un inputlist
+	{
+		doAction(); changements des objets
+		{
+			on doit check dans la liste d'input tous les objets 
+			et ainsi effectuer l'action demande grace au protocole
+			(on doit decrypter le message puis faire appel a la 
+			fonction correspondant a l'action)
+
+			puis mettre a jour mes infos ce que j'ai effectuer (PollEvents) et les 
+			inserer dans la list des Output afin de les envoyer au reseau
+		}
+	}
+
+	for each reste
+	doAction() pour les objets ki nont pas change detat
+	{
+		pour celuila il faut check dans la WindowZone chaque zone 
+		puis mettre le status du sprite a checked
+		pour ne pas rechecker le status de l'objet dans l'autre zone 
+		(ex : si un objet avance dans la zone4 il ne faut pas la refaire 
+		avancer dans la zone 5 (biensur si elle est entre les 2 zones)
+		(faire une methode intelligente qui des qu'un perso sort 
+		d'une zone il faut l'enlever de celle-ci ou l'affecter a la suivante)
+
+
+	}
+
+	checkCollision()
+	{
+		verifie dans la WindowZone toutes les zones puis pour 
+		chaque sprite verifier si il y a collision avec un autre 
+		sprite de cette zone
+		(hypothese Y: pour une optimisation stocker dans chaque sprite les 
+		id des sprites qui ont ete checke histoire de ne pas check un meme sprite 2 fois)
+		si une collision a eu lieu avec un de nos objet (comme notre balle) 
+		generer une collision dans une liste d'output (represente ce qui sera envoyer dans le reseau)
+	}
+	gerer les output : (envoyer tout ce qui ya dans le reseau)
+
+
+(je ne sais pas a quel moment mettre le son pour le moment)
+   genere ouput video
+le son dans le scenario je pense ?
+}

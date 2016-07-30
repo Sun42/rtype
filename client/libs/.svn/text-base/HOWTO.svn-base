@@ -1,0 +1,3 @@
+g++ -fPIC -shared -I../header -I/usr/local/boost_1_39_0/ -o Player1.so ../src/Player1.cpp
+
+le -fPIC n'est necessaire que sur 64bit
